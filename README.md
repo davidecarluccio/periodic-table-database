@@ -1,15 +1,42 @@
-# Periodic Table Database
+Build a Periodic Table Database
+===============================
+
+This is one of the required projects to earn your certification. For this project, you will create a Bash script to get information about chemical elements from a periodic table database.
+
+This course runs in a virtual Linux machine using Gitpod. Follow these instructions to start the course:
+
+1.  [Create a GitHub](https://github.com/join "Source Code Link") account if you don't have one
+2.  Click the start button below
+3.  Login to Gitpod with your GitHub account if you aren't already
+4.  Once the virtual Linux machine is finished loading, start the CodeRoad extension by:
+    *   Clicking the "hamburger" menu near the top left of the VSCode window,
+    *   Going to the "View" menu,
+    *   Clicking on the "Command Palette" option,
+    *   and running the "CodeRoad: Start" command
+5.  Follow the instructions in CodeRoad to complete the course
+
+Complete both steps below to finish the challenge.
+
+* * *
+
+Step 1: Complete the project
+----------------------------
+
+The project runs in a virtual machine, complete the user stories described in there and get all the tests to pass to finish step 1.
+
+**Important:** After you pass all the project tests, save a dump of your database into a `periodic_table.sql` file, as well as your `element.sh` file, so you can complete step 2. There will be instructions on how to do that within the virtual machine.
+
+> Clicking the button below will start a new project. If you have previously started the Build a Periodic Table Database course, go to [your Gitpod dashboard](https://gitpod.io/workspaces) to continue.
+> 
+> Learn more about [Gitpod workspaces.](https://forum.freecodecamp.org/t/using-gitpod-in-the-curriculum/668669)
+
+> If you log out of freeCodeCamp before you complete the entire Build a Periodic Table Database course, your progress will not be saved to your freeCodeCamp account.
+
 #### Open [file `solution.txt`](solution.txt) To follow my terminal command. Solutions divided into several steps :
     1. Compact sql db schema into periodic_table.sql.
     2. Prepare git directory.
     3. Prepare shell scipt files.
     4. Copy scipts and run the scripts (fix db first)
-
-#### Documentation can be found on :[https://github.com/viktoriussuwandi/Periodic-Table-Database](https://github.com/viktoriussuwandi/Periodic-Table-Database)
-
-This is the result to complete the Periodic Table Database project.
-Instructions for building this project can be found at
-[https://www.freecodecamp.org/learn/relational-database/build-a-periodic-table-database-project/build-a-periodic-table-database](https://www.freecodecamp.org/learn/relational-database/build-a-periodic-table-database-project/build-a-periodic-table-database)
 
 ## Instructions
 You are started with a `periodic_table` database that has information about some chemical elements. You can connect to it by entering `psql --username=freecodecamp --dbname=periodic_table` in the terminal. You may want to get a little familiar with the existing `tables`, `columns`, and `rows`. Read the instructions below and complete user stories to finish the project. Certain tests may not pass until other user stories are complete. Good luck!
@@ -62,3 +89,12 @@ If you are saving your progress on [freeCodeCamp.org](https://www.freecodecamp.o
 28. Delete the `non existent element`, whose `atomic_number` is 1000, from the `two tables`.
 29. `properties` table should not have a `type` column.
 30. Finish the project while on the `main branch`. The `working tree` should be `clean` and it should not have any `uncommitted changes`.
+
+* * *
+
+Step 2: Submit your code
+------------------------
+
+When you have completed the project, save all the required files into a public repository and submit the URL to it below.
+
+Required files: `periodic_table.sql`, `element.sh`
